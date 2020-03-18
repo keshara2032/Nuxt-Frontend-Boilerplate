@@ -1,0 +1,39 @@
+{
+  "name": "pera-rides",
+  "version": "1.0.0",
+  "description": "This is the front end web application for Bicycle Sharing Project.",
+  "author": "Nadun Welikanda",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.5",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.2",
+    "leaflet": "^1.6.0",
+    "leaflet-easybutton": "^2.4.0",
+    "nuxt": "^2.0.0",
+    "nuxt-leaflet": "^0.0.19",
+    "vue": "^2.6.11",
+    "vue2-leaflet": "^2.4.2",
+    "vue2-leaflet-locatecontrol": "^1.0.1",
+    "vuesax": "^3.11.11",
+    "yarn": "^1.21.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.10.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
