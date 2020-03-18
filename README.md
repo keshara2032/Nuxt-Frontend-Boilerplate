@@ -1,4 +1,4 @@
-# pera-rides
+# nuxt-frontend-boilerplate
 
 > This is the front end web application for Bicycle Sharing Project.
 
